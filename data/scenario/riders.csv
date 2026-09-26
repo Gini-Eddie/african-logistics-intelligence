@@ -1,0 +1,7 @@
+rider_id,vehicle_type,available,shift_start,shift_end,break_start,break_end,capacity_kg,max_packages
+R001,motorcycle,True,08:00,18:00,13:00,14:00,100,15
+R002,motorcycle,True,08:00,18:00,13:00,14:00,100,15
+R003,motorcycle,True,08:00,16:00,12:00,13:00,80,12
+R004,motorcycle,True,10:00,19:00,14:00,15:00,100,15
+R005,motorcycle,True,09:00,18:00,13:00,14:00,80,12
+R006,motorcycle,False,08:00,18:00,12:00,13:00,100,15

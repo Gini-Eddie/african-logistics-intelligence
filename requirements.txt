@@ -1,0 +1,9 @@
+pandas
+numpy
+pandas
+numpy
+sqlalchemy
+geopandas
+shapely
+osmnx
+networkx

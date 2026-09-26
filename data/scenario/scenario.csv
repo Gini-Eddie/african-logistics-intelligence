@@ -1,0 +1,2 @@
+scenario_id,city,country,registered_riders,planned_deliveries,vehicle_type,depot_count,scenario_type,random_seed
+LAGOS_V1_DAY001,Lagos,Nigeria,6,60,motorcycle,1,synthetic,42

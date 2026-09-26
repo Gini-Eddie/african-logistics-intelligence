@@ -1,0 +1,9 @@
+[project]
+name = "african-logistics-intelligence-start"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+]

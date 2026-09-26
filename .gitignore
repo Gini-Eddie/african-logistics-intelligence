@@ -1,0 +1,115 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Environment / secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ==========================================
+# Python build / package artifacts
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# OS files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Databases
+# Generated local databases
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# GIS generated / large working data
+# ==========================================
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+
+# Shapefile components
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+
+# Raster / remote sensing data
+*.tif
+*.tiff
+*.jp2
+
+# ==========================================
+# QGIS temporary / local project state
+# ==========================================
+*.qgd
+*.qgz~
+*.qgs~
+
+# ==========================================
+# Generated outputs
+# ==========================================
+outputs/*
+!outputs/.gitkeep
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# ML artifacts - future phases
+# ==========================================
+*.pkl
+*.joblib
+*.onnx
+
+# ==========================================
+# Large/raw external datasets
+# ==========================================
+data/raw/*
+!data/raw/.gitkeep
+
+data/geospatial/*
+!data/geospatial/.gitkeep
+data/database/*
