@@ -84,6 +84,12 @@ desktop.ini
 *.qgd
 *.qgz~
 *.qgs~
+*.qgz
+*.qgs
+
+# QGIS temporary/auxiliary files
+*.qml~
+*.aux.xml
 
 # ==========================================
 # Generated outputs
@@ -109,7 +115,13 @@ logs/
 # ==========================================
 data/raw/*
 !data/raw/.gitkeep
+data/*
+database/*
 
 data/geospatial/*
 !data/geospatial/.gitkeep
 data/database/*
+
+# Model/generated artifacts
+models/
+outputs/

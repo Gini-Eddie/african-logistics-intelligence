@@ -5,7 +5,8 @@ import pandas as pd
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DATA_DIR = BASE_DIR / "data" / "scenario"
+DATA_DIR = BASE_DIR / "data" / ("raw"
+                                "")
 DATABASE_DIR = BASE_DIR / "database"
 
 DATABASE_DIR.mkdir(parents=True, exist_ok=True)
