@@ -96,6 +96,9 @@ desktop.ini
 # ==========================================
 outputs/*
 !outputs/.gitkeep
+!outputs/phase3_baseline/
+!outputs/phase4_optimization/
+!outputs/phase5_prediction/
 
 # ==========================================
 # Logs
@@ -117,11 +120,12 @@ data/raw/*
 !data/raw/.gitkeep
 data/*
 database/*
+!database/.gitkeep
 
-data/geospatial/*
-!data/geospatial/.gitkeep
-data/database/*
+# ==========================================
+# Geospatial assets (large binary files)
+# ==========================================
+geospatial_assets/
 
 # Model/generated artifacts
 models/
-outputs/

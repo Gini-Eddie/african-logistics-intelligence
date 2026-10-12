@@ -1,9 +1,22 @@
-pandas
-numpy
-pandas
-numpy
-sqlalchemy
-geopandas
-shapely
-osmnx
-networkx
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Geospatial
+geopandas>=1.2.0
+shapely>=2.0.0
+osmnx>=2.1.0
+networkx>=3.7.0
+pyogrio>=0.13.0
+
+# Optimization
+ortools>=9.15.0
+
+# Testing
+pytest>=8.0.0
+
+# Jupyter
+ipykernel>=7.0.0
