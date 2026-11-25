@@ -1,0 +1,12 @@
+{
+    "completed_deliveries": 59,
+    "deferred_deliveries": 1,
+    "total_distance_km": 291.341,
+    "objective_value": 1291341,
+    "deferred_ids": [
+        "D036"
+    ],
+    "ortools_version": "9.15.6755",
+    "python_version": "3.14.0",
+    "search_time_limit_seconds": 60
+}

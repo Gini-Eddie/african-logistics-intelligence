@@ -1,0 +1,3 @@
+delivery_id,customer_id,area,latitude,longitude,weight_kg,package_size,priority,window_start,window_end,service_time_min,deferral_penalty
+D037,C037,Lekki,6.469513,3.597717,13.6,LARGE,LOW,10:00,14:00,12,1000000
+D042,C042,Ajah,6.480823,3.560854,9.1,MEDIUM,LOW,09:00,12:00,15,1000000

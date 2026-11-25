@@ -4,14 +4,22 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.14"
 dependencies = [
+    "dotenv>=0.9.9",
+    "fastparquet>=2026.9.0",
     "geopandas>=1.2.0",
     "ipykernel>=7.4.0",
+    "ipython>=9.17.1",
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
     "networkx>=3.7",
     "numpy>=2.5.3",
     "ortools>=9.15.6755",
     "osmnx>=2.1.1",
     "pandas>=3.0.6",
+    "pyarrow>=26.0.1",
     "pyogrio>=0.13.0",
+    "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
     "scipy-stubs~=1.18.1",
+    "xgboost>=3.4.1",
 ]

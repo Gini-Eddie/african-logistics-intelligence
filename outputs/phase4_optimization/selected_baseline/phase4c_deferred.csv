@@ -1,0 +1,2 @@
+delivery_id,customer_id,area,latitude,longitude,weight_kg,package_size,priority,window_start,window_end,service_time_min
+D036,C036,Ajah,6.471891,3.577304,20.5,LARGE,NORMAL,12:00,16:00,7
